@@ -1,5 +1,5 @@
 # Programa que lee dos numeros enteros separados por un espacio (NUMERADOR DENOMINADOR)
-# Y da como resultado la fracción mixta (si es que existe), el número entero o la fracción.
+# Y da como resultado la fracción mixta (si es que existe), el número entero o la fracción
 cadena = str(input(''))
 U = cadena.split(' ')
 N = int(U[0])

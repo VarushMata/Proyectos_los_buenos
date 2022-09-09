@@ -1,5 +1,5 @@
 # Programa en el que se introducen dos vector de N tamaño y realiza el producto
-# punto de estos.
+# punto de estos
 import numpy as np
 N = int(input('Ingrese el tamaño de los vectores: '))
 A = np.zeros((1,N))
