@@ -1,10 +1,15 @@
-N = int(input('Ingrese el numerador: '))
-D = int(input('Ingrese el denominador: '))
+cadena = str(input(''))
+U = cadena.split(' ')
+N = int(U[0])
+D = int(U[1])
 M = N%D
 R = N/D
 if M == 0:
-    print('El resultado es: ', R)
+    print(int(R))
 elif N < D:
-    print('El resultado es: ', M, '/', D)
+    print(M,'/',D,sep='')
 else:
-    print ('El resultado es: ', int(R), M, '/', D)
+    # print(int(R),M,'/',D,sep='')
+    print(int(R), end=' ')
+    print(M, '/', D, sep='')
+    
